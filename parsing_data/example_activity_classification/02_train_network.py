@@ -62,8 +62,8 @@ print()
 # Configuration
 #####################################
 
-data_processed_root_dir = os.path.realpath(os.path.join(script_dir, '..', '..', '..', 'data_processed'))
-training_networks_root_dir = os.path.realpath(os.path.join(script_dir, '..', '..', '..', 'training_networks'))
+data_processed_root_dir = os.path.realpath(os.path.join(script_dir, 'data_processed'))
+training_networks_root_dir = os.path.realpath(os.path.join(script_dir, 'training_networks'))
 
 sensor_subsets = [
   'allStreams',

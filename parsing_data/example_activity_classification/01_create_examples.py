@@ -45,7 +45,7 @@ from utils.time_utils import *
 #######################################
 
 # Define where outputs will be saved.
-output_dir = os.path.join(script_dir, '..', '..', '..', 'data_processed')
+output_dir = os.path.join(script_dir,'data_processed')
 output_filepath = os.path.join(output_dir, 'data_processed_allStreams_10s_10hz_5subj_ex20-20_allActs.hdf5')
 # output_filepath = None
 
@@ -62,7 +62,7 @@ device_streams_for_features = [
 ]
 
 # Specify the input data.
-data_root_dir = os.path.join(script_dir, '..', '..', '..', 'data', 'experiments')
+data_root_dir = os.path.join(script_dir, 'data')
 data_folders_bySubject = OrderedDict([
   ('S00', os.path.join(data_root_dir, '2022-06-07_experiment_S00')),
   ('S02', os.path.join(data_root_dir, '2022-06-13_experiment_S02')),

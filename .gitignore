@@ -19,3 +19,6 @@
 *.ppt
 *.pptx
 parsing_data/example_activity_classification/data_processed/
+parsing_data/example_activity_classification/data/
+parsing_data/example_activity_classification/training_networks/
+parsing_data/example_activity_classification/training_networks/.ipynb_checkpoints/
